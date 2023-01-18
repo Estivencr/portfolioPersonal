@@ -3,7 +3,7 @@ import { useEffect } from 'react'
 import { useRouter } from "next/router"
 import NProgress from "nprogress"
 
-const Layout = ({ children }) => {
+const Layout = ({ children, footer = true }) => {
 
     const router = useRouter();
 
@@ -18,8 +18,8 @@ const Layout = ({ children }) => {
 
         router.events.on('routeChangeComplete', () => NProgress.done());
 
-        return() => {
-        router.events.off('routeChangeStart', handleRouteChange);
+        return () => {
+            router.events.off('routeChangeStart', handleRouteChange);
         }
 
     }, [])
@@ -32,13 +32,17 @@ const Layout = ({ children }) => {
                 {children}
             </main>
 
-            <footer className="bg-dark text-light text-center">
-                <div className="container p-4">
-                    <h1>&copy; Estiven Cano Portfolio</h1>
-                    <p>2022 - {new Date().getFullYear()}</p>
-                    <p>All rights reserved.</p>
-                </div>
-            </footer>
+            {
+                footer && (
+                    <footer className="bg-dark text-light text-center">
+                        <div className="container p-4">
+                            <h1>&copy; Estiven Cano Portfolio</h1>
+                            <p>2022 - {new Date().getFullYear()}</p>
+                            <p>All rights reserved.</p>
+                        </div>
+                    </footer>
+                )
+            }
 
         </>
     )
