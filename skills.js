@@ -20,7 +20,7 @@ export const skills = [
 export const experiences = [
     {
         title: 'Tecnical Analyst',
-        description: "Durante mi experiencia laboral como Analista de Datos en GoldenHass, tuve el privilegio de trabajar en el proyecto de análisis de plagas en el cultivo de aguacate. La primera tarea que tuve fue recopilar y analizar datos de situaciones de plagas a partir de informes de campo y datos históricos. Utilicé herramientas de análisis estadístico para identificar los patrones de la presencia de plagas en el cultivo de aguacate a lo largo del tiempo. Una vez completada la recopilación y análisis de datos, me enfrenté a la tarea de crear una interfaz gráfica para la visualización de los datos. Utilicé herramientas de visualización como Tableau y R para crear gráficos dinámicos que mostraban la evolución de la presencia de plagas en el cultivo de aguacate.",
+        description: "During my experience as a Data Analyst at GoldenHass, I had the privilege of working on the pest analysis project in the avocado crop. The first task I had was to collect and analyze data from pest situations from field reports and historical data. I used statistical analysis tools to identify patterns of pest presence in the avocado crop over time. Once the data collection and analysis was completed, I faced the task of creating a graphical interface for data visualization. I used visualization tools such as Tableau and R to create dynamic graphics that showed the evolution of pest presence in the avocado crop.",
         from: 2022,
         to: 2022
     }
@@ -34,12 +34,12 @@ export const projects = [
     },
     {
         name: "Website Analitics",
-        description: "Hay muchas variaciones de los pasajes de Lorem Ipsum disponibles, pero la mayoría sufrió alteraciones en alguna manera, ya sea porque se le agregó humor, o palabras aleatorias que no parecen ni un poco creíbles. Si vas a utilizar un pasaje de Lorem Ipsum, necesitás estar seguro de que no hay nada avergonzante escondido en el medio del texto.",
+        description: "This project aims to show an interactive map that displays the different levels of severity of pests in the fields. The map will show the different levels of severity of pests in specific regions. The user can interact with the map to view data for a specific region or to view aggregated data for the entire region. The data can be filtered by type of pest, amount of pests, and other parameters. The data will be gathered from local farmers and will be updated weekly to show an accurate picture of the severity of pests in the fields. The goal of this project is to provide farmers with accurate information about the level of threat of pests in their fields so that they can make informed decisions about pest control.",
         image: "portfolio2.jpeg"
     },
     {
-        name: "Empleados CRUD",
-        description: "Hay muchas variaciones de los pasajes de Lorem Ipsum disponibles, pero la mayoría sufrió alteraciones en alguna manera, ya sea porque se le agregó humor, o palabras aleatorias que no parecen ni un poco creíbles. Si vas a utilizar un pasaje de Lorem Ipsum, necesitás estar seguro de que no hay nada avergonzante escondido en el medio del texto.",
+        name: "Employee CRUD",
+        description: "This project consists of developing a CRUD (Create, Read, Update and Delete) application for managing employee records in Java using MySQL as the database. This application will allow users to create, update, delete and view employee records. This will include the basic employee information such as name, address, phone number, etc., as well as job and location related information. The system will also provide tools to perform searches, filter results and export the records to a CSV file for further use.",
         image: "portfolio3.jpeg"
     }  
 ]

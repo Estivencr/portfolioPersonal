@@ -12,11 +12,6 @@ const Navbar = () => (
             </button>
             <div className="collapse navbar-right navbar-collapse" id="navbarNav">
                 <ul className="navbar-nav ms-auto">
-                    <li className="nav-item ">
-                        <Link legacyBehavior href="/blog">
-                            <a className="nav-link">Blog</a>
-                        </Link>
-                    </li>
                     <li className="nav-item " >
                         <Link legacyBehavior href="/github">
                             <a className="nav-link">Github</a>
